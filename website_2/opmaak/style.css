@@ -4,10 +4,11 @@ body {
 
 header, aside, footer, article {
 	display: block;
+	font-family: Arial,Helvetica;
 	}
 
 header, footer {
-	background-color: white;
+	background-color: blue;
 	padding: 5px;
 	}
 
@@ -16,16 +17,17 @@ header {
 	margin-top: -8px;
 	text-align: center;
 	padding-top: 80px;
-	color: white;
+	color: rgb(5, 80, 83);
 	}
 	
 h1 {
 	font-size: 90px;
+	font-family: 'Times New Roman';
 	}
 aside {
 	float: right;
 	width: 20%;
-	background-color: white;
+	background-color: rgb(1, 254, 30);
 	padding: 20px;
 	margin-top: -30px;
 	margin-right: 10px;
@@ -38,7 +40,7 @@ article {
 	margin: 10px;
 	margin-left: 0px;
 	padding: 10px;
-	background-color: #DDDDDD;	/*lichtgrijs*/
+	background-color: #0c91af;	/*lichtgrijs*/
 	}
 	
 footer {
@@ -51,3 +53,8 @@ p {
 	font-weight: 200;
 	margin: 10px;
 }
+
+.inleiding {
+	font-style: italic;
+	font-family: cursive;
+	}
